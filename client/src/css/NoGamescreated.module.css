@@ -1,0 +1,17 @@
+.invalid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #070C14;
+    height: 100vh;
+    width: 100%;
+}
+
+.invalid p {
+    margin-top: 1rem;
+}
+
+.invalid button {
+    margin-top: 2rem;
+}

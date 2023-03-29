@@ -1,0 +1,30 @@
+.paginado{
+    margin-top: 35px;
+}
+
+.ulPaginado {
+    list-style: none;
+    text-align: center;
+}
+
+.numeroPaginado {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg?w=740&t=st=1679686401~exp=1679687001~hmac=856ae4de9367758653cae935a06f9ab60db696f25f053cebc95c81fe415356d1);
+    background-size: cover;
+    border: white solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition: all 400ms ease;
+}
+
+.numeroPaginado:hover {
+    color: white;
+    background: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1410.jpg?w=740&t=st=1679686777~exp=1679687377~hmac=74b4ab957323f1c5883f455fb588f8fb79c00c158d9932617ab6ef34018982c4);
+    background-size: cover;
+    border-color: white;
+    transform: translateY(-20%);
+}

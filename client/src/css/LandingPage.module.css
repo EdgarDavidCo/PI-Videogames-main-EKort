@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+.containerLand{
+    background-image: url(https://www.gamewallpapers.com/wallpapers_slechte_compressie/wallpaper_destiny_2_season_of_the_seraph_01_1280x720.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: table;
+    margin: 0;
+    top: 0;
+}
+
+.segContainer{
+    width: 100%;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.tercContainer{
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.tercContainer h1 {
+    font-family: 'Goldman', cursive;
+    font-size: 500%;
+    letter-spacing: 5px;
+    color: #3B6978;
+    text-shadow: 0 0 500px white;
+    text-shadow: 2px 2px white;
+}
+
+.link {
+    position: relative;
+    display: inline-block;
+    padding: 40px 12px;
+    width: 180px;
+    letter-spacing: 8px;
+    font-family: 'Goldman', cursive;
+    font-size: 26px;
+    color: whitesmoke;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.3s;
+    text-shadow: 3px 3px #3B6978;
+}
+
+.link:hover {
+    padding: 14px 14px;
+    border-radius: 6px;
+    background: #3B6978;
+    box-shadow: 0 0 8px #393E46, 0 0 10px #393E46, 0 0 10px #393E46;
+}

@@ -1,0 +1,24 @@
+.searchInput {
+    border-radius: 0.4rem 0 0 0.4rem;
+    border-style: none;
+    width: auto;
+    background-color: #F1FAEE;
+    color: #E63946;
+    padding: 0.5em;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.searchButton {
+    border-radius: 0 0.4rem 0.4rem 0;
+    border-style: none;
+    width: min-content;
+    color: #94AF9F;;
+    background-image: url(https://img.freepik.com/psd-gratis/diseno-futurista-moderno-fondo-o-papel-tapiz-tecnologia-alta-tecnologia-ciberespacio-digital-color-editable_511042-529.jpg?w=900&t=st=1680056105~exp=1680056705~hmac=bf0b2a07f23b537ee6f57e3e97db826ccb3284660cc034a87bd21606a523aa1c);
+    padding: 0.5em;
+    text-transform: uppercase;
+    align-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+

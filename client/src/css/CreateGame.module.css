@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #F1FAEE;
+    font-family: 'Goldman', cursive;    
+    
+}
+.select {
+    width: auto;
+    background-color: #F1FAEE;
+    color: #0F6292;
+    border-radius: 0.4rem;
+    border-style: none;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    padding: 0.5em;
+    font-size: .8rem;
+    cursor: pointer;
+}
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #070C14;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.hdqwalls.com/wallpapers/neon-genesis-evangelion-1995-e6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+}
+.title{
+    text-align: center;
+    margin-top: 100px; 
+    margin-bottom: -4px;
+}
+
+.formInput {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    padding: 0.5em;
+    margin-top: .3rem;
+    margin-left: 1rem;
+    align-self: center;
+    align-items: center;
+    justify-content: left;
+    border-radius: 0.4rem;
+    border-style: none;
+    background-color: #F1FAEE25;
+}
+
+.formInput p {
+    width: 100%;
+    flex-direction: row;
+    text-align: left;
+    font-size: xx-small;
+    font-weight: 300;
+    color: #E63946;
+}
+.button {
+    width: 8rem;
+    border-radius: 0.4rem;
+    border-style: solid;
+    border-color: #F1FAEE;
+    background-color: #F1FAEE;
+    color: #0F6292;
+    padding: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 80px;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg?w=740&t=st=1679686401~exp=1679687001~hmac=856ae4de9367758653cae935a06f9ab60db696f25f053cebc95c81fe415356d1);
+}
+.button:hover{
+    color: white;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1410.jpg?w=740&t=st=1679686777~exp=1679687377~hmac=74b4ab957323f1c5883f455fb588f8fb79c00c158d9932617ab6ef34018982c4);
+    transform: translateY(-8%);
+}
+.buttonSecondary {
+    width: 8rem;
+    border-radius: 0.4rem;
+    border-style: solid;
+    border-color: #F1FAEE;
+    background-color: #F1FAEE;
+    color: #F1FAEE;
+    padding: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 10px;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg?w=740&t=st=1679686401~exp=1679687001~hmac=856ae4de9367758653cae935a06f9ab60db696f25f053cebc95c81fe415356d1);
+}
+.buttonSecondary:hover{
+    color: #0F6292;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1410.jpg?w=740&t=st=1679686777~exp=1679687377~hmac=74b4ab957323f1c5883f455fb588f8fb79c00c158d9932617ab6ef34018982c4);
+    transform: translateY(-8%);
+}
+.formButtons {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-bottom: 1rem;
+    margin-right: 50px;
+}
+.chip {
+    display: flex;
+    padding: 0.3rem;
+    margin: 1rem 1rem 0rem 0rem;
+    border-style: none;
+    border-radius: 0.6rem;
+    background-color: #E63946;
+    cursor: pointer;
+}
+
+
+/* .formCreate{
+    width: 450px;
+    margin: 0px 60px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: #000000 solid;
+    margin-bottom: 25px;
+}
+
+textarea {
+    border: #000000 solid;
+    min-height: 100px;
+    max-height: 150px;
+    max-width: 100%;
+}
+
+.tittle{
+    color: #3B6978;
+    text-align: center;
+    text-shadow: 2px 2px whitesmoke;
+    font-size: 18px;
+    font-family: 'Goldman', cursive;
+    letter-spacing: 4px;
+}
+
+.inputs, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    margin: 17px 0px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 7px;
+    background-color: #3B6978;
+}
+
+.inputs::placeholder{
+    color: white;
+    font-family: 'Goldman', cursive;
+}
+/* --------------------------------------------------------------------------------------------------- */
+/* .button {
+    background: #31384a;
+    color: white;
+    padding: 20px;
+    margin: 0px 0px;
+    cursor: pointer;
+    width: 100%;
+    margin-left: -220px;
+    transition: all 0.2s linear;
+} */
+
+/* .button:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+} */
+/* -------------------------------------------------------------------------------------------- */
+/* .buttons {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+    margin: -20px;
+    cursor: pointer;
+    width: 90%;
+    margin-left: 0px;
+    transition: all 0.2s linear;
+} */
+
+/* .backBut{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 6px;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg?w=740&t=st=1679686401~exp=1679687001~hmac=856ae4de9367758653cae935a06f9ab60db696f25f053cebc95c81fe415356d1);
+    transition: 0.3s;
+    transition: all 400ms ease;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Goldman', cursive;
+    width: 200px;
+
+    
+    bottom: 0;
+
+    
+} */
+
+/* .backBut:hover {
+    color: white;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1410.jpg?w=740&t=st=1679686777~exp=1679687377~hmac=74b4ab957323f1c5883f455fb588f8fb79c00c158d9932617ab6ef34018982c4);
+    background-size: cover;
+    border-color: white;
+    transform: translateY(-20%);
+} */
+
+/* .buttonCrear{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg?w=740&t=st=1679686401~exp=1679687001~hmac=856ae4de9367758653cae935a06f9ab60db696f25f053cebc95c81fe415356d1);
+    background-size: cover;
+    color: white;
+    transition: 0.3s;
+    transition: all 400ms ease;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Goldman', cursive;
+    
+} */
+
+/* .buttonCrear:hover {
+    color: white;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1410.jpg?w=740&t=st=1679686777~exp=1679687377~hmac=74b4ab957323f1c5883f455fb588f8fb79c00c158d9932617ab6ef34018982c4);
+    background-size: cover;
+    border-color: white;
+    transform: translateY(-20%);
+} */
+
+/* .genreX{
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+    font-size: 20px;
+} */
+
+/* .butonX{
+    background-color: red;
+    width: 30px;
+    max-height: 30px;
+    margin-left: 15px;
+    border-radius: 5px;
+} */
+
+/* .genresSelect{
+    margin-top: 10px;
+    border-radius: 10px;
+} */
+
+/* .generos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    margin: 0px 60px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: #000000 solid;
+    margin-bottom: 25px;
+    flex-direction: column;
+    font-family: 'Goldman', cursive;
+    border-radius: 10px;
+} */
+
+/* .boxGrid{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+} */
+/* .selectGen{
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 15px;
+    color: white;
+    background-color: #3B6978;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-family:'Goldman', cursive
+}  */

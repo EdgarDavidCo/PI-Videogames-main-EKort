@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+.main {
+    background-color: #070C14;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images3.alphacoders.com/965/96579.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0D172695;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);;
+    padding: .5rem 2rem .5rem 2rem;
+    margin-bottom: 1rem;
+}
+
+.navleft {
+    display: flex;
+    padding: .5rem 2rem .5rem 0rem;
+}
+
+.navRight {
+    display: flex;
+    justify-content: right;
+    padding: .5rem 0rem .5rem 0rem;
+}
+.button {
+    width: 12em;
+    padding: 0.5em;
+    align-content: center;
+    color: #94AF9F;;
+    border-radius: 0.4rem;
+    border-style: none;
+    background-image: url(https://img.freepik.com/psd-gratis/diseno-futurista-moderno-fondo-o-papel-tapiz-tecnologia-alta-tecnologia-ciberespacio-digital-color-editable_511042-529.jpg?w=900&t=st=1680056105~exp=1680056705~hmac=bf0b2a07f23b537ee6f57e3e97db826ccb3284660cc034a87bd21606a523aa1c);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.buttonSecondary {
+    width: 12em;
+    border-radius: 0.4rem;
+    border-style: solid;
+    border-color: whitesmoke;
+    background-image: url(https://img.freepik.com/psd-gratis/diseno-futurista-moderno-fondo-o-papel-tapiz-tecnologia-alta-tecnologia-ciberespacio-digital-color-editable_511042-529.jpg?w=900&t=st=1680056105~exp=1680056705~hmac=bf0b2a07f23b537ee6f57e3e97db826ccb3284660cc034a87bd21606a523aa1c);
+    color: #94AF9F;
+    padding: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav h1 {
+    font-size: large;
+}
+.filtersAndOrders {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #0D172600;
+    padding: .5rem 2rem .5rem 2rem;
+    font-size: .8rem;
+}
+.select {
+    width: auto;
+    background-image: url(https://img.freepik.com/psd-gratis/diseno-futurista-moderno-fondo-o-papel-tapiz-tecnologia-alta-tecnologia-ciberespacio-digital-color-editable_511042-529.jpg?w=900&t=st=1680056105~exp=1680056705~hmac=bf0b2a07f23b537ee6f57e3e97db826ccb3284660cc034a87bd21606a523aa1c);
+    color: #94AF9F;
+    border-radius: 0.4rem;
+    border-style: none;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    padding: 0.5em;
+    font-size: .8rem;
+    cursor: pointer;
+}
+h4 {
+    color: #181818;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.paginatedbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: initial;
+    margin: 1rem;
+    margin-bottom: 0px;
+}

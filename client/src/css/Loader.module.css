@@ -1,0 +1,33 @@
+@keyframes spin {
+    to {transform: rotate(360deg);}
+}
+
+.loader {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border-top: 8px solid #0b025f;
+    border-left: 8px solid #1b05e2;
+    border-right: 8px solid #312bf3;
+
+    animation: spin 0.575s infinite linear;
+}
+
+.invalid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #070C14;
+    height: 100vh;
+    width: 100%;
+}
+
+.invalid p {
+    margin-top: 1rem;
+}
+
+.invalid button {
+    margin-top: 2rem;
+}
+
